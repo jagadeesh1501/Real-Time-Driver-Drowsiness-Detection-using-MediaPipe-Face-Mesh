@@ -4,7 +4,7 @@ import mediapipe as mp
 mp_drawing = mp.solutions.drawing_utils
 mp_face_mesh = mp.solutions.face_mesh
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(1) # Change this if camera is not opening or showing blank screen ( 0 - 9 )
 with mp_face_mesh.FaceMesh(
     max_num_faces=1,
     refine_landmarks=False,
