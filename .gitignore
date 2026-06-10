@@ -1,15 +1,6 @@
-# Environments
+mpenv/
+cleanenv/
 venv/
-env/
-
-# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# macOS
-.DS_Store
-
-# IDEs
+*.pyc
 .vscode/
-.idea/
